@@ -1,0 +1,76 @@
+Html,Body
+{
+Margin: 0;
+Padding: 0;
+Align-Items: Center;
+Justify-Content: Center;
+Height: 100%;
+Background: #Fff;
+}
+.Container
+{
+Display: Flex;
+Justify-Content: Center;
+Align-Items: Center;
+Height: 100%;
+}
+.Btn
+{
+Width: 100px;
+Height: 100px;
+Background-Color: #Fafafa;
+Display: Flex;
+Align-Items: Center;
+Justify-Content: Center;
+Margin-Left: 2em;
+Margin-Right: 1em;
+Cursor: Pointer;
+Transition: All 0.3s;
+Border-Radius: 10px;
+}
+I.Fa
+{
+Font-Size: 44px;
+}
+#Fb
+{
+Color: #006fff;
+Text-Shadow: 0 0 30px #006fff;
+}
+#Ig
+{
+Color: #Ff5f40;
+Text-Shadow: 0 0 30px #Ff5f40;
+}
+#Tw
+{
+Color: #00acff;
+Text-Shadow: 0 0 30px #00acff;
+}
+.Btn.Fb-Btn
+{
+Box-Shadow: 0 20px 20px -17px Rgba(0,111,255,0.53);
+}
+.Btn.Fb-Btn:hover
+{
+Transform: Scale(1.2);
+Box-Shadow: 0 30px 45px -15px Rgba(0,111,255,0.65);
+}
+.Btn.Ig-Btn
+{
+Box-Shadow: 0 20px 20px -17px Rgba(255,16,39,0.5);
+}
+.Btn.Ig-Btn:hover
+{
+Transform: Scale(1.2);
+Box-Shadow: 0 30px 45px -15px Rgba(255,16,39,0.57);
+}
+.Btn.Tw-Btn
+{
+Box-Shadow: 0 20px 20px -17px Rgba(0,255,255,0.53);
+}
+.Btn.Tw-Btn:hover
+{
+Transform: Scale(1.2);
+Box-Shadow: 0 30px 45px -15px Rgba(0,111,255,0.6);
+}
